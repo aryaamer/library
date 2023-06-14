@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-color: rgb(230, 235, 226);
+}
+.cat{
+    padding: 10px;
+    float: right;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.im{
+    width: 40%;
+}
+button{
+    background-color: rgb(215, 189, 171);
+    width: 290px;
+}
+.bt{
+    width: 290px;
+    text-align: center;
+}
+.nwsar{
+    display: inline-flex;
+    overflow-x: auto;
+    margin-top: 10px;
+    border-style: ridge;
+    padding: 10px;
+    border-width: 50%;
+    border-radius: 10px;
+}
+.nw{
+    border-radius: 20px;
+}
+.nwsar,.item{
+    margin: 5px;
+    width: 59%;
+    height: auto;
+}
+
+footer{
+    background-color: aqua;
+}
+
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+    /* Add CSS rules for desktop screens here */
+ }
+ 
+ /* Tablet styles */
+ @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Add CSS rules for tablet screens here */
+ }
+ 
+ /* Mobile styles */
+ @media only screen and (max-width: 767px) {
+    /* Add CSS rules for mobile screens here */
+ }
+ 

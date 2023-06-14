@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+.h1{
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(215, 189, 171);
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+    width: 35%;
+}
+button{
+    background-color: rgb(215, 189, 171);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(202, 142, 100);
+    color: white;
+}
+img{
+  width: 60%;
+}
+.background{
+    position: absolute;
+}
